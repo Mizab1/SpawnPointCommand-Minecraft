@@ -1,0 +1,11 @@
+name: SpawnPointCommand
+version: '${project.version}'
+main: me.mizab.spawnpointcommand.SpawnPointCommand
+api-version: 1.19
+authors: [ Mizab ]
+description: Set Spawn point and run /spawn to go back to the point
+commands:
+  setspawn:
+    description: Set your spawn
+  spawn:
+    description: Go back to spawn
